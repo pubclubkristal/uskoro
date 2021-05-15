@@ -5462,6 +5462,11 @@ body.boxed #wrapper {
 	-moz-box-shadow: 0 0 6px 1px rgba(112,112,112,.2);
 	box-shadow: 0 0 6px 1px rgba(112,112,112,.2)
 }
+
+body.boxed #gornji {
+	max-width: 100%;
+}
+
 body.boxed .banner .banner-content .container {
 	height: 420px
 }
