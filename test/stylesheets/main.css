@@ -5245,14 +5245,18 @@ output {
 }
 
 .centrisi {
-	 margin: 125px;
+	 margin: 185px;
     display: ruby;
+
 
 
 }
 
 .centrisi h1{
 	 font-size: 25px !important;
+	 margin-bottom: 150px !important;
+    
+
 
 
 }
