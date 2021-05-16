@@ -1224,7 +1224,9 @@ jQuery(window).load(function(){
 
    
 
-  
+   $(document).ready(function(){
+         $(".bg").interactive_bg();
+        });
         
         $(window).resize(function() {
           $(".wrapper-bg > .ibg-bg").css({
