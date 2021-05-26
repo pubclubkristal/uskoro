@@ -1,5 +1,4 @@
-RewriteEngine On
-# Check for mime types commonly accepted by mobile devices
-RewriteCond %{HTTP_ACCEPT} textvnd.wap.wmlapplicationvnd.wap.xhtml+xml [NC]
-RewriteCond %{REQUEST_URI} ^$
-RewriteRule ^ https://www.google.com%{REQUEST_URI} [R,L]
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www\.)?pubclubkristal\.github\.io$
+RewriteRule (.*)$ http://www.pubclubkristal.com/$1 [P]
+
